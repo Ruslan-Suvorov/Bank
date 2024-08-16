@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+  &__button {
+    cursor: pointer;
+  }
+
+  &__text {
+    color: white;
+    font-size: 16px;
+  }
+  &__title {
+    font-weight: bold;
+    font-size: 20px;
+    color: #121212;
+  }
+}
+
+.no-button {
+  width: 24px;
+  height: 24px;
+}
+
